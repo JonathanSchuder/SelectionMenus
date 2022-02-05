@@ -18,7 +18,7 @@ public class Main {
 
     public static void main(String[] args) throws LoginException {
 
-        builder = JDABuilder.createDefault("OTMwODU4NzQ0MTAxODg4MDAx.Yd7_ww.AN4VDb0jxKos18ttTJAzBPlYKRE");
+        builder = JDABuilder.createDefault("Dein Token");
 
         builder.addEventListeners(new Command());
         builder.addEventListeners(new MakeSelection());
